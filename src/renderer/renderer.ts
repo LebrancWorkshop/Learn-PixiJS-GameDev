@@ -1,4 +1,4 @@
-import * as PIXI from 'pixi.js';
+import { PIXI } from './pixi.ts';
 import { config } from '../config';
 
 export const app = new PIXI.Application<HTMLCanvasElement>({
